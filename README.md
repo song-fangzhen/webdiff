@@ -1,6 +1,9 @@
 # git webdiff for COI
 
-Two-column web-based git difftool for [Chromium Open IDE](https://microsoftedge.microsoft.com/addons/detail/chromium-open-ide/ggfoollpnfolfaejalpiihpobcpbegkl)(COI).
+[![CodeQL workflow](https://github.com/song-fangzhen/webdiff-for-coi/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/song-fangzhen/webdiff-for-coi/actions/workflows/codeql-analysis.yml)
+[![Bors enabled](https://bors.tech/images/badge_small.svg)](https://app.bors.tech/repositories/37746)
+
+Two-column web-based git difftool for [Chromium Open IDE](https://github.com/song-fangzhen/chromium-open-ide#readme)(COI).
 
 **Features include:**
 * Side-by-side (two column) diff view.
