@@ -1,54 +1,9 @@
-- 0.15
-  * Fix `setup.py` configuration error that prevented install on macOS Catalina (#131)
-  * JavaScript modernization:
-    * Drop bower in favor of yarn
-    * Use webpack for bundling
-    * Convert to TypeScript
-    * Update to a recent version of React
+# Change Log
 
-- 0.14
-  * Allow the use of hostnames (config option USE_HOSTNAME=True/False)
+All notable changes to "`webdiff-for-coi`" will be documented in this file.
 
-- 0.13
-  * Python 3 support. (Thanks @daytonb!)
-  * Renames are shown as moves only, not move + delete.
-  * Exit cleanly with Ctrl-C (Thanks @NikolasOliveira!)
+## [Release]
 
-- 0.12
-  * Support for `user.token` in `.githubrc` file.
-  * Update highlight.js from 0.8.0 → 0.9.2. Notably this improves ES6 support.
+**v0.15.7**
 
-- 0.11
-  * Files are fetched from GitHub lazily to allowing diffs of large PRs.
-
-- 0.10
-  * Added perceptual diffs via ImageMagick
-  * Add a favicon
-
-- 0.9
-  * Long lines now wrap instead of scrolling horizontally.
-  * Only 10+ common lines will be elided (no more "Show 2 more lines").
-  * Show bounding boxes for the changed region in image diffs.
-
-- 0.8
-  * New image diff modes: onion skin, swipe
-  * Shrink to fit for image diffs
-  * More aggressive syntax highlighting (makes a guess based on file contents)
-  * Refresh no longer kills the webdiff server (useful if file changes on disk)
-  * Renames/moves are displayed more compactly (ala GitHub)
-
-- 0.7
-  * Support for file vs. file diffs (i.e. webdiff as a replacement for diff)
-  * List of files instead of dropdown for small diffs
-  * Display resolution and file size for images
-  * Conversion to ReactJS
-
-- 0.6
-  * Support for image diffs
-  * Basic move/rename detection
-  * Bug fixes
-
-- 0.5
-  * Switched from jsdifflib to codediff.js, which provides syntax highlighting.
-  * Make better use of narrow browser windows
-  * Detect (and suppress) binary diffs
+- Now can be supported by related [Chrome Extension](https://chrome.google.com/webstore/detail/chromium-open-ide/oodolphplfmnljcohclgdikkoljjambi)/[MSEdge Extension](https://microsoftedge.microsoft.com/addons/detail/chromium-open-ide/ggfoollpnfolfaejalpiihpobcpbegkl).

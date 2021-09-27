@@ -18,7 +18,7 @@ Two-column web-based git difftool for [Chromium Open IDE](https://github.com/son
 
 ## Installation
 
-    pip install webdiffForCOI
+    pip install webdiff-for-coi
 
 ## Usage
 
